@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-10",
+  "revision": "friendly-v1",
+  "offset_columns_removed": true,
+  "plain_category_labels": true,
+  "example_selection_and_highlights_verified_in_browser": true,
+  "live_callback_checks_passed": 6,
+  "notebook_and_app_bundle_synchronized": true,
+  "model_weights_unchanged": true
+}

@@ -1,0 +1,37 @@
+# Local trained artifacts, historical delivery copies and audit evidence
+codex-space/
+review/
+
+# Generated runtime files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+ner_work/
+.pytest_cache/
+.ipynb_checkpoints/
+.cache/
+.mypy_cache/
+.ruff_cache/
+
+# Trained weights, downloads and local environment secrets
+artifacts/
+*.zip
+*.pt
+*.safetensors
+*.pth
+*.ckpt
+*.onnx
+*.npy
+*.npz
+*.parquet
+/data/
+/outputs/
+.env
+.env.*
+!.env.example
+
+# Keep the final media/demo.mp4 trackable; omit recording/editing intermediates
+media/raw/
+media/drafts/
+*.tmp

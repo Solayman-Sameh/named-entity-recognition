@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-10",
+  "ui_revision": "polished-v2",
+  "readme_current": true,
+  "license": "MIT",
+  "copyright_holder": "Solayman-Sameh",
+  "project_tree_uses_git_ignore_rules": true,
+  "current_notebook_matches_source": true,
+  "app_zip_matches_source": true,
+  "zip_crc_passed": true,
+  "original_model_weights_unchanged": true,
+  "checkpoint_regression_tests_passed": 6,
+  "live_callback_checks_passed": 6,
+  "clear_verified": true,
+  "current_preview": "media/app-preview.png",
+  "pending_media": "media/demo.mp4",
+  "committed_or_pushed": false
+}

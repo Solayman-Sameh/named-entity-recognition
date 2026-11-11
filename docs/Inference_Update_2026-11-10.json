@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-10",
+  "revision": "raw-v2",
+  "six_regression_tests_passed": true,
+  "app_zip_crc_passed": true,
+  "model_and_tokenizer_bytes_unchanged": true,
+  "notebook_schema_and_source_checks_passed": true,
+  "training_rerun": false,
+  "historical_archives_unchanged": true,
+  "app_archive": {
+    "bytes": 242762373,
+    "sha256": "f0feb856a81b74563e52d80f0b658a591988e28181058c27b7d1474f67baac40"
+  }
+}

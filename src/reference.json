@@ -1,0 +1,181 @@
+{
+  "observed": true,
+  "splits": {
+    "train": {
+      "sentences": 14041,
+      "tokens": 203621,
+      "fingerprint": "94c7192df8c4d806d437e87df07b8cf831b97af9fd22922671f7146775d90642",
+      "schema": "id: string\ntokens: list<element: string>\n  child 0, element: string\npos_tags: list<element: int64>\n  child 0, element: int64\nchunk_tags: list<element: int64>\n  child 0, element: int64\nner_tags: list<element: int64>\n  child 0, element: int64\n-- schema metadata --\nhuggingface: '{\"info\": {\"features\": {\"id\": {\"dtype\": \"string\", \"_type\": \"' + 914",
+      "empty_or_malformed": 0,
+      "tag_counts": {
+        "B-ORG": 6321,
+        "O": 169578,
+        "B-MISC": 3438,
+        "B-PER": 6600,
+        "I-PER": 4528,
+        "B-LOC": 7140,
+        "I-ORG": 3704,
+        "I-MISC": 1155,
+        "I-LOC": 1157
+      },
+      "o_prevalence": 0.832811939829389,
+      "entities": {
+        "ORG": 6321,
+        "MISC": 3438,
+        "PER": 6600,
+        "LOC": 7140
+      },
+      "entity_lengths": {
+        "min": 1,
+        "median": 1.0,
+        "p95": 3.0,
+        "p99": 4.0,
+        "max": 10
+      },
+      "word_lengths": {
+        "min": 1,
+        "median": 10.0,
+        "p95": 37.0,
+        "p99": 46.0,
+        "max": 113
+      },
+      "subword_lengths": {
+        "min": 3,
+        "median": 17.0,
+        "p95": 47.0,
+        "p99": 58.0,
+        "max": 173
+      },
+      "unk_subwords": 0,
+      "normalization_conversions": 0,
+      "word_oov_tokens": 0,
+      "word_oov_rate": 0.0,
+      "char_oov": 0,
+      "char_oov_rate": 0.0,
+      "words_over_char_cap": 0,
+      "transformer_chunks": 14041,
+      "chunk_crossed_gold_entities": 0,
+      "aligned_words": 203621,
+      "external_glove_token_coverage": 0.9772518551622867,
+      "usable_task_glove_token_coverage": 0.9772518551622867
+    },
+    "validation": {
+      "sentences": 3250,
+      "tokens": 51362,
+      "fingerprint": "c25ae5cd173d132b8136e41fc0cc6a6b78c4fabbcaed58aae2d0e08a4c60e8bc",
+      "schema": "id: string\ntokens: list<element: string>\n  child 0, element: string\npos_tags: list<element: int64>\n  child 0, element: int64\nchunk_tags: list<element: int64>\n  child 0, element: int64\nner_tags: list<element: int64>\n  child 0, element: int64\n-- schema metadata --\nhuggingface: '{\"info\": {\"features\": {\"id\": {\"dtype\": \"string\", \"_type\": \"' + 914",
+      "empty_or_malformed": 0,
+      "tag_counts": {
+        "O": 42759,
+        "B-ORG": 1341,
+        "B-LOC": 1837,
+        "B-MISC": 922,
+        "I-MISC": 346,
+        "B-PER": 1842,
+        "I-PER": 1307,
+        "I-LOC": 257,
+        "I-ORG": 751
+      },
+      "o_prevalence": 0.8325026284023208,
+      "entities": {
+        "ORG": 1341,
+        "LOC": 1837,
+        "MISC": 922,
+        "PER": 1842
+      },
+      "entity_lengths": {
+        "min": 1,
+        "median": 1.0,
+        "p95": 3.0,
+        "p99": 4.0,
+        "max": 10
+      },
+      "word_lengths": {
+        "min": 1,
+        "median": 11.0,
+        "p95": 39.0,
+        "p99": 49.0,
+        "max": 109
+      },
+      "subword_lengths": {
+        "min": 3,
+        "median": 18.0,
+        "p95": 49.0,
+        "p99": 62.0,
+        "max": 151
+      },
+      "unk_subwords": 0,
+      "normalization_conversions": 0,
+      "word_oov_tokens": 4293,
+      "word_oov_rate": 0.08358319380086446,
+      "char_oov": 0,
+      "char_oov_rate": 0.0,
+      "words_over_char_cap": 0,
+      "transformer_chunks": 3250,
+      "chunk_crossed_gold_entities": 0,
+      "aligned_words": 51362,
+      "external_glove_token_coverage": 0.9794789922510806,
+      "usable_task_glove_token_coverage": 0.9097971262801293
+    },
+    "test": {
+      "sentences": 3453,
+      "tokens": 46435,
+      "fingerprint": "141b3a4f1b1da2f59ce0a979e43ef44800bbb3732ee641c0f029a8e8179dc3e2",
+      "schema": "id: string\ntokens: list<element: string>\n  child 0, element: string\npos_tags: list<element: int64>\n  child 0, element: int64\nchunk_tags: list<element: int64>\n  child 0, element: int64\nner_tags: list<element: int64>\n  child 0, element: int64\n-- schema metadata --\nhuggingface: '{\"info\": {\"features\": {\"id\": {\"dtype\": \"string\", \"_type\": \"' + 914",
+      "empty_or_malformed": 0,
+      "tag_counts": {
+        "O": 38323,
+        "B-LOC": 1668,
+        "B-PER": 1617,
+        "I-PER": 1156,
+        "I-LOC": 257,
+        "B-MISC": 702,
+        "I-MISC": 216,
+        "B-ORG": 1661,
+        "I-ORG": 835
+      },
+      "o_prevalence": 0.8253041886508022,
+      "entities": {
+        "LOC": 1668,
+        "PER": 1617,
+        "MISC": 702,
+        "ORG": 1661
+      },
+      "entity_lengths": {
+        "min": 1,
+        "median": 1.0,
+        "p95": 3.0,
+        "p99": 4.0,
+        "max": 6
+      },
+      "word_lengths": {
+        "min": 1,
+        "median": 9.0,
+        "p95": 37.0,
+        "p99": 47.0,
+        "max": 124
+      },
+      "subword_lengths": {
+        "min": 3,
+        "median": 16.0,
+        "p95": 46.0,
+        "p99": 59.0,
+        "max": 148
+      },
+      "unk_subwords": 0,
+      "normalization_conversions": 0,
+      "word_oov_tokens": 5656,
+      "word_oov_rate": 0.1218046731990955,
+      "char_oov": 1,
+      "char_oov_rate": 4.997201567122411e-06,
+      "words_over_char_cap": 0,
+      "transformer_chunks": 3453,
+      "chunk_crossed_gold_entities": 0,
+      "aligned_words": 46435,
+      "external_glove_token_coverage": 0.9713362765155594,
+      "usable_task_glove_token_coverage": 0.8741897275761817
+    }
+  },
+  "vocab_fingerprint": "3a0eddc128ba9bc9e6ab7607ac620d3141f14a4475abd656507687ec8fbd16fa",
+  "embedding_matrix_sha256": "0df3b88b35ca0f93909ebc552c946f25aaa6980d1b59661e68370f89ccafaaa9"
+}

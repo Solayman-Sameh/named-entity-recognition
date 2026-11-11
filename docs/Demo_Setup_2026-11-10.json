@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-10",
+  "entrypoint": "python app.py",
+  "environment": "main",
+  "packages": {
+    "torch": "2.5.1+cu121",
+    "transformers": "5.13.0",
+    "huggingface-hub": "1.16.0",
+    "gradio": "6.30.0"
+  },
+  "checkpoint_regression_tests_passed": 6,
+  "http_server_verified": true,
+  "analyze_callback_examples_passed": 4,
+  "model_directory": "artifacts/selected_model",
+  "final_video_path": "media/demo.mp4",
+  "final_video_allowed_by_gitignore": true,
+  "git_branch": "main",
+  "training_weights_unchanged": true
+}

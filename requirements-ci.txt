@@ -1,0 +1,2 @@
+# No model, training or app dependencies are needed for these checks.
+nbformat==5.10.4

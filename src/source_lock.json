@@ -1,0 +1,116 @@
+{
+  "dataset_repository": "BramVanroy/conll2003",
+  "dataset_revision": "4ffbd53d9e0b92b473b9b7dcff12f53e7c17ce0c",
+  "original_repository": "eriktks/conll2003",
+  "original_revision": "3f1cce917ab38486481b062921eb137e7bd3c205",
+  "model_repository": "distilbert/distilbert-base-cased",
+  "model_revision": "6ea81172465e8b0ad3fddeed32b986cdcdcffcf0",
+  "embedding_metadata": {
+    "num_records": 400000,
+    "file_size": 69182535,
+    "base_dataset": "Wikipedia 2014 + Gigaword 5 (6B tokens, uncased)",
+    "reader_code": "https://github.com/RaRe-Technologies/gensim-data/releases/download/glove-wiki-gigaword-50/__init__.py",
+    "license": "http://opendatacommons.org/licenses/pddl/",
+    "parameters": {
+      "dimension": 50
+    },
+    "description": "Pre-trained vectors based on Wikipedia 2014 + Gigaword, 5.6B tokens, 400K vocab, uncased (https://nlp.stanford.edu/projects/glove/).",
+    "preprocessing": "Converted to w2v format with `python -m gensim.scripts.glove2word2vec -i <fname> -o glove-wiki-gigaword-50.txt`.",
+    "read_more": [
+      "https://nlp.stanford.edu/projects/glove/",
+      "https://nlp.stanford.edu/pubs/glove.pdf"
+    ],
+    "checksum": "c289bc5d7f2f02c6dc9f2f9b67641813",
+    "file_name": "glove-wiki-gigaword-50.gz",
+    "parts": 1
+  },
+  "files": {
+    "mirror_README.md": {
+      "url": "https://huggingface.co/datasets/BramVanroy/conll2003/resolve/4ffbd53d9e0b92b473b9b7dcff12f53e7c17ce0c/README.md",
+      "sha256": "957bef95b2fb4db76457e92f3c37717686b79c982d283369b05a5b26a0a286b5",
+      "bytes": 12747
+    },
+    "original_README.md": {
+      "url": "https://huggingface.co/datasets/eriktks/conll2003/resolve/3f1cce917ab38486481b062921eb137e7bd3c205/README.md",
+      "sha256": "d084dc7e14f5537b04a63d685d212db05ed49e9a4cef4ae20264ad0bee777117",
+      "bytes": 12330
+    },
+    "original_script.py": {
+      "url": "https://huggingface.co/datasets/eriktks/conll2003/resolve/3f1cce917ab38486481b062921eb137e7bd3c205/conll2003.py",
+      "sha256": "bf7c353c1dfc5526e2a1ce2a7e27da69eb0d62db760c9f670ea0312bcfbaf77e",
+      "bytes": 9570
+    },
+    "glove-wiki-gigaword-50.gz": {
+      "url": "https://github.com/RaRe-Technologies/gensim-data/releases/download/glove-wiki-gigaword-50/glove-wiki-gigaword-50.gz",
+      "sha256": "5c55f98957aa9fed8d2ac5fb1dcff57af3b23c5a3ee7af3f7945f8d49198eb24",
+      "bytes": 69182535,
+      "published_md5": "c289bc5d7f2f02c6dc9f2f9b67641813"
+    },
+    "train.parquet": {
+      "url": "https://huggingface.co/datasets/BramVanroy/conll2003/resolve/4ffbd53d9e0b92b473b9b7dcff12f53e7c17ce0c/data/train-00000-of-00001.parquet",
+      "sha256": "a92ca6a5a082770a072822441917619e46caa5be2af795273640d972136a7935",
+      "bytes": 1221000
+    },
+    "validation.parquet": {
+      "url": "https://huggingface.co/datasets/BramVanroy/conll2003/resolve/4ffbd53d9e0b92b473b9b7dcff12f53e7c17ce0c/data/validation-00000-of-00001.parquet",
+      "sha256": "78052bbaec76513a03704011bf42e2e1ba5f46fa2d032d40b5039638555b61d2",
+      "bytes": 310076
+    },
+    "test.parquet": {
+      "url": "https://huggingface.co/datasets/BramVanroy/conll2003/resolve/4ffbd53d9e0b92b473b9b7dcff12f53e7c17ce0c/data/test-00000-of-00001.parquet",
+      "sha256": "696edfc316c682fb3a51bf833968922301409d7f452bec044934fed8bbe612f5",
+      "bytes": 281499
+    },
+    "distilbert/config.json": {
+      "url": "https://huggingface.co/distilbert/distilbert-base-cased/resolve/6ea81172465e8b0ad3fddeed32b986cdcdcffcf0/config.json",
+      "sha256": "165376e2c837d836c75ae30fde8c5569beb3ed7325b7473c18a76e4608cdec22",
+      "bytes": 465
+    },
+    "distilbert/tokenizer.json": {
+      "url": "https://huggingface.co/distilbert/distilbert-base-cased/resolve/6ea81172465e8b0ad3fddeed32b986cdcdcffcf0/tokenizer.json",
+      "sha256": "5b3360be30cdf39081153cf9d30bfb0503c011462fc9f77f097127c83ef0f4d9",
+      "bytes": 435797
+    },
+    "distilbert/tokenizer_config.json": {
+      "url": "https://huggingface.co/distilbert/distilbert-base-cased/resolve/6ea81172465e8b0ad3fddeed32b986cdcdcffcf0/tokenizer_config.json",
+      "sha256": "0f6d13e6f4da6f9e24f22ada6bc3be571123d858d7c0c05a8a7cd55a9c23c2e8",
+      "bytes": 49
+    },
+    "distilbert/vocab.txt": {
+      "url": "https://huggingface.co/distilbert/distilbert-base-cased/resolve/6ea81172465e8b0ad3fddeed32b986cdcdcffcf0/vocab.txt",
+      "sha256": "eeaa9875b23b04b4c54ef759d03db9d1ba1554838f8fb26c5d96fa551df93d02",
+      "bytes": 213450
+    },
+    "distilbert/model.safetensors": {
+      "url": "https://huggingface.co/distilbert/distilbert-base-cased/resolve/6ea81172465e8b0ad3fddeed32b986cdcdcffcf0/model.safetensors",
+      "sha256": "64080c2b1998c3bd1214311ab9f1e97b40052fa81d508b8b534a936c4ba1626b",
+      "bytes": 263260784
+    },
+    "original_corpus.zip": {
+      "url": "https://data.deepai.org/conll2003.zip",
+      "sha256": "96a104d174ddae7558bab603f19382c5fe02ff1da5c077a7f3ce2ced1578a2c3",
+      "bytes": 982975
+    }
+  },
+  "provenance": "Mirror card identifies duplicate of eriktks/conll2003. Original loader inspected as text, never executed. ClassLabel metadata from actual Parquet. Source corpus Reuters CoNLL2003 English; license other; consult cards and corpus terms.",
+  "original_corpus_comparison": {
+    "train": {
+      "matched_all_original_tokens_and_raw_tags": true,
+      "sentences": 14041,
+      "tokens": 203621,
+      "raw_file_sha256": "213953b5522fb7924802d883e50f027b2c6ffb5d4d0e63368ed82909f9b60423"
+    },
+    "validation": {
+      "matched_all_original_tokens_and_raw_tags": true,
+      "sentences": 3250,
+      "tokens": 51362,
+      "raw_file_sha256": "c02eb19809eafb83998326a0481942eb37d96f31826ae387cfe8773699969f5b"
+    },
+    "test": {
+      "matched_all_original_tokens_and_raw_tags": true,
+      "sentences": 3453,
+      "tokens": 46435,
+      "raw_file_sha256": "dc4ac7f3d6d01a6bec59261814561da3b287b6b493b97d1f69c580b52ec1831b"
+    }
+  }
+}

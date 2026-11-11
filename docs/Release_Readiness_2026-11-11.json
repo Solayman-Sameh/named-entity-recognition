@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-11",
+  "video": "media/demo.mp4",
+  "bytes": 1560980,
+  "sha256": "ebd54dae6816022db19754d0d98369a34ab45104cf3e3c0864714c11c0882c06",
+  "copy_verified_against_original": true,
+  "video_reencoded": false,
+  "pending_media": null,
+  "readme_and_tree_updated": true,
+  "video_allowed_by_gitignore": true,
+  "committed_or_pushed": false
+}
